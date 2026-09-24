@@ -1,0 +1,677 @@
+2026-09-17 08:35:43 - INFO - HardwareInventory - Database initialized successfully: c:\Users\NU\Desktop\Dela Pena\hardware_inventory.db
+2026-09-17 08:42:53 - INFO - HardwareInventory - Database initialized successfully: c:\Users\NU\Desktop\Dela Pena\hardware_inventory.db
+2026-09-17 08:42:54 - INFO - werkzeug - WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+2026-09-17 08:42:54 - INFO - werkzeug - Press CTRL+C to quit
+2026-09-17 08:42:54 - INFO - werkzeug -  * Restarting with stat
+2026-09-17 08:42:54 - INFO - HardwareInventory - Database initialized successfully: c:\Users\NU\Desktop\Dela Pena\hardware_inventory.db
+2026-09-17 08:42:54 - WARNING - werkzeug -  * Debugger is active!
+2026-09-17 08:42:54 - INFO - werkzeug -  * Debugger PIN: 537-899-714
+2026-09-17 08:43:02 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:43:02] "GET / HTTP/1.1" 302 -
+2026-09-17 08:43:02 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:43:02] "GET /login HTTP/1.1" 200 -
+2026-09-17 08:43:02 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:43:02] "GET /favicon.ico HTTP/1.1" 404 -
+2026-09-17 08:43:22 - INFO - HardwareInventory - Successful login: admin (ADMIN)
+2026-09-17 08:43:22 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:43:22] "POST /login HTTP/1.1" 302 -
+2026-09-17 08:43:22 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:43:22] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 08:49:01 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:49:01] "GET / HTTP/1.1" 302 -
+2026-09-17 08:49:01 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:49:01] "GET /login HTTP/1.1" 200 -
+2026-09-17 08:49:01 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:49:01] "GET /favicon.ico HTTP/1.1" 404 -
+2026-09-17 08:49:11 - INFO - HardwareInventory - Successful login: admin (ADMIN)
+2026-09-17 08:49:11 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:49:11] "POST /login HTTP/1.1" 302 -
+2026-09-17 08:49:11 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:49:11] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 08:50:07 - INFO - werkzeug -  * Detected change in 'c:\\Users\\NU\\Desktop\\Dela Pena\\app.py', reloading
+2026-09-17 08:50:07 - INFO - werkzeug -  * Restarting with stat
+2026-09-17 08:50:07 - INFO - HardwareInventory - Database initialized successfully: c:\Users\NU\Desktop\Dela Pena\hardware_inventory.db
+2026-09-17 08:50:07 - WARNING - werkzeug -  * Debugger is active!
+2026-09-17 08:50:07 - INFO - werkzeug -  * Debugger PIN: 537-899-714
+2026-09-17 08:50:14 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:50:14] "GET / HTTP/1.1" 302 -
+2026-09-17 08:50:14 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:50:14] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 08:50:45 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:50:45] "GET / HTTP/1.1" 302 -
+2026-09-17 08:50:45 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:50:45] "GET /login HTTP/1.1" 200 -
+2026-09-17 08:50:45 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:50:45] "GET /favicon.ico HTTP/1.1" 404 -
+2026-09-17 08:50:57 - INFO - HardwareInventory - Successful login: admin (ADMIN)
+2026-09-17 08:50:57 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:50:57] "POST /login HTTP/1.1" 302 -
+2026-09-17 08:50:57 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:50:57] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 08:51:07 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:51:07] "GET /inventory HTTP/1.1" 200 -
+2026-09-17 08:51:08 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:51:08] "GET /returns HTTP/1.1" 200 -
+2026-09-17 08:51:09 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:51:09] "GET /reports HTTP/1.1" 200 -
+2026-09-17 08:51:10 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:51:10] "GET /account HTTP/1.1" 200 -
+2026-09-17 08:51:10 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:51:10] "GET /admin HTTP/1.1" 200 -
+2026-09-17 08:51:11 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:51:11] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 08:51:17 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:51:17] "GET /inventory HTTP/1.1" 200 -
+2026-09-17 08:51:17 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:51:17] "GET /returns HTTP/1.1" 200 -
+2026-09-17 08:51:17 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:51:17] "GET /reports HTTP/1.1" 200 -
+2026-09-17 08:51:18 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:51:18] "GET /account HTTP/1.1" 200 -
+2026-09-17 08:51:19 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:51:19] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 08:54:30 - INFO - werkzeug -  * Detected change in 'c:\\Users\\NU\\Desktop\\Dela Pena\\app.py', reloading
+2026-09-17 08:54:30 - INFO - werkzeug -  * Restarting with stat
+2026-09-17 08:54:30 - INFO - HardwareInventory - Database initialized successfully: c:\Users\NU\Desktop\Dela Pena\hardware_inventory.db
+2026-09-17 08:54:30 - WARNING - werkzeug -  * Debugger is active!
+2026-09-17 08:54:30 - INFO - werkzeug -  * Debugger PIN: 537-899-714
+2026-09-17 08:54:48 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:54:48] "GET / HTTP/1.1" 302 -
+2026-09-17 08:54:48 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:54:48] "GET /login HTTP/1.1" 200 -
+2026-09-17 08:54:48 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:54:48] "GET /favicon.ico HTTP/1.1" 404 -
+2026-09-17 08:54:57 - INFO - HardwareInventory - Successful login: admin (ADMIN)
+2026-09-17 08:54:57 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:54:57] "POST /login HTTP/1.1" 302 -
+2026-09-17 08:54:57 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:54:57] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 08:55:02 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:55:02] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 08:55:02 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:55:02] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 08:55:03 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:55:03] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 08:55:04 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:55:04] "GET /inventory HTTP/1.1" 200 -
+2026-09-17 08:55:04 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:55:04] "GET /returns HTTP/1.1" 200 -
+2026-09-17 08:55:05 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:55:05] "GET /account HTTP/1.1" 200 -
+2026-09-17 08:55:06 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:55:06] "GET /admin HTTP/1.1" 200 -
+2026-09-17 08:55:06 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:55:06] "GET /account HTTP/1.1" 200 -
+2026-09-17 08:55:07 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:55:07] "GET /reports HTTP/1.1" 200 -
+2026-09-17 08:55:07 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:55:07] "GET /returns HTTP/1.1" 200 -
+2026-09-17 08:55:07 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:55:07] "GET /inventory HTTP/1.1" 200 -
+2026-09-17 08:55:08 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:55:08] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 08:55:10 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:55:10] "GET /inventory HTTP/1.1" 200 -
+2026-09-17 08:55:10 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:55:10] "GET /returns HTTP/1.1" 200 -
+2026-09-17 08:55:10 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:55:10] "GET /reports HTTP/1.1" 200 -
+2026-09-17 08:55:11 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:55:11] "GET /account HTTP/1.1" 200 -
+2026-09-17 08:55:11 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:55:11] "GET /admin HTTP/1.1" 200 -
+2026-09-17 08:55:12 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:55:12] "GET /account HTTP/1.1" 200 -
+2026-09-17 08:55:12 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:55:12] "GET /returns HTTP/1.1" 200 -
+2026-09-17 08:55:12 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:55:12] "GET /inventory HTTP/1.1" 200 -
+2026-09-17 08:55:13 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:55:13] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 08:55:18 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:55:18] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 08:55:19 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:55:19] "GET /inventory HTTP/1.1" 200 -
+2026-09-17 08:55:19 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:55:19] "GET /returns HTTP/1.1" 200 -
+2026-09-17 08:55:20 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:55:20] "GET /reports HTTP/1.1" 200 -
+2026-09-17 08:55:20 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:55:20] "GET /account HTTP/1.1" 200 -
+2026-09-17 08:55:20 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:55:20] "GET /admin HTTP/1.1" 200 -
+2026-09-17 08:55:44 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:55:44] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 08:55:45 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:55:45] "GET /inventory HTTP/1.1" 200 -
+2026-09-17 08:55:46 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:55:46] "GET /inventory HTTP/1.1" 200 -
+2026-09-17 08:55:54 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:55:54] "GET /returns HTTP/1.1" 200 -
+2026-09-17 08:55:58 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:55:58] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 08:55:59 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:55:59] "GET /inventory HTTP/1.1" 200 -
+2026-09-17 08:56:09 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:56:09] "GET /inventory HTTP/1.1" 200 -
+2026-09-17 08:56:11 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:56:11] "GET /inventory HTTP/1.1" 200 -
+2026-09-17 08:56:11 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:56:11] "GET /returns HTTP/1.1" 200 -
+2026-09-17 08:56:12 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:56:12] "GET /inventory HTTP/1.1" 200 -
+2026-09-17 08:56:12 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:56:12] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 08:56:16 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:56:16] "GET /account HTTP/1.1" 200 -
+2026-09-17 08:57:34 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:57:34] "GET /logout HTTP/1.1" 302 -
+2026-09-17 08:57:34 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:57:34] "GET /login HTTP/1.1" 200 -
+2026-09-17 08:57:52 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:57:52] "POST /login HTTP/1.1" 200 -
+2026-09-17 08:58:06 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:58:06] "POST /login HTTP/1.1" 200 -
+2026-09-17 08:58:25 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:58:25] "POST /login HTTP/1.1" 200 -
+2026-09-17 08:58:51 - WARNING - HardwareInventory - Account locked: Rafaelle
+2026-09-17 08:58:51 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 08:58:51] "POST /login HTTP/1.1" 200 -
+2026-09-17 09:00:02 - WARNING - HardwareInventory - Account locked: Rafaelle
+2026-09-17 09:00:02 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:00:02] "POST /login HTTP/1.1" 200 -
+2026-09-17 09:00:16 - WARNING - HardwareInventory - Account locked: Rafaelle
+2026-09-17 09:00:16 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:00:16] "POST /login HTTP/1.1" 200 -
+2026-09-17 09:02:26 - INFO - werkzeug -  * Detected change in 'c:\\Users\\NU\\Desktop\\Dela Pena\\app.py', reloading
+2026-09-17 09:02:26 - INFO - werkzeug -  * Restarting with stat
+2026-09-17 09:02:26 - INFO - HardwareInventory - Database initialized successfully: c:\Users\NU\Desktop\Dela Pena\hardware_inventory.db
+2026-09-17 09:02:26 - WARNING - werkzeug -  * Debugger is active!
+2026-09-17 09:02:26 - INFO - werkzeug -  * Debugger PIN: 537-899-714
+2026-09-17 09:02:29 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:02:29] "GET / HTTP/1.1" 302 -
+2026-09-17 09:02:29 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:02:29] "GET /login HTTP/1.1" 200 -
+2026-09-17 09:02:29 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:02:29] "GET /favicon.ico HTTP/1.1" 404 -
+2026-09-17 09:02:40 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:02:40] "GET /register HTTP/1.1" 200 -
+2026-09-17 09:03:18 - INFO - HardwareInventory - New user registered: Marian
+2026-09-17 09:03:18 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:03:18] "POST /register HTTP/1.1" 302 -
+2026-09-17 09:03:18 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:03:18] "GET /login HTTP/1.1" 200 -
+2026-09-17 09:03:26 - INFO - HardwareInventory - Successful login: Marian (USER)
+2026-09-17 09:03:26 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:03:26] "POST /login HTTP/1.1" 302 -
+2026-09-17 09:03:26 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:03:26] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 09:03:30 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:03:30] "GET /inventory HTTP/1.1" 200 -
+2026-09-17 09:03:33 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:03:33] "GET /reports HTTP/1.1" 200 -
+2026-09-17 09:03:33 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:03:33] "GET /account HTTP/1.1" 200 -
+2026-09-17 09:03:40 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:03:40] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 09:03:46 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:03:46] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 09:03:46 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:03:46] "GET /inventory HTTP/1.1" 200 -
+2026-09-17 09:03:47 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:03:47] "GET /returns HTTP/1.1" 200 -
+2026-09-17 09:03:48 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:03:48] "GET /reports HTTP/1.1" 200 -
+2026-09-17 09:03:48 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:03:48] "GET /account HTTP/1.1" 200 -
+2026-09-17 09:03:56 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:03:56] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 09:03:57 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:03:57] "GET /inventory HTTP/1.1" 200 -
+2026-09-17 09:03:58 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:03:58] "GET /returns HTTP/1.1" 200 -
+2026-09-17 09:03:58 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:03:58] "GET /reports HTTP/1.1" 200 -
+2026-09-17 09:03:59 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:03:59] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 09:04:00 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:04:00] "GET /inventory HTTP/1.1" 200 -
+2026-09-17 09:04:01 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:04:01] "GET /account HTTP/1.1" 200 -
+2026-09-17 09:11:22 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:11:22] "GET / HTTP/1.1" 302 -
+2026-09-17 09:11:22 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:11:22] "GET /login HTTP/1.1" 200 -
+2026-09-17 09:11:22 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:11:22] "GET /favicon.ico HTTP/1.1" 404 -
+2026-09-17 09:11:29 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:11:29] "POST /login HTTP/1.1" 200 -
+2026-09-17 09:11:37 - WARNING - HardwareInventory - Account locked: admin
+2026-09-17 09:11:37 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:11:37] "POST /login HTTP/1.1" 200 -
+2026-09-17 09:11:50 - INFO - HardwareInventory - Successful login: admin (ADMIN)
+2026-09-17 09:11:50 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:11:50] "POST /login HTTP/1.1" 302 -
+2026-09-17 09:11:50 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:11:50] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 09:11:52 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:11:52] "GET /inventory HTTP/1.1" 200 -
+2026-09-17 09:11:52 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:11:52] "GET /returns HTTP/1.1" 200 -
+2026-09-17 09:11:53 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:11:53] "GET /account HTTP/1.1" 200 -
+2026-09-17 09:11:53 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:11:53] "GET /admin HTTP/1.1" 200 -
+2026-09-17 09:11:57 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:11:57] "GET /account HTTP/1.1" 200 -
+2026-09-17 09:11:58 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:11:58] "GET /reports HTTP/1.1" 200 -
+2026-09-17 09:11:58 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:11:58] "GET /inventory HTTP/1.1" 200 -
+2026-09-17 09:11:59 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:11:59] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 09:11:59 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:11:59] "GET /inventory HTTP/1.1" 200 -
+2026-09-17 09:11:59 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:11:59] "GET /returns HTTP/1.1" 200 -
+2026-09-17 09:12:00 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:12:00] "GET /account HTTP/1.1" 200 -
+2026-09-17 09:12:00 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:12:00] "GET /reports HTTP/1.1" 200 -
+2026-09-17 09:12:00 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:12:00] "GET /inventory HTTP/1.1" 200 -
+2026-09-17 09:12:01 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:12:01] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 09:12:02 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:12:02] "GET /inventory HTTP/1.1" 200 -
+2026-09-17 09:12:13 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:12:13] "GET /inventory HTTP/1.1" 200 -
+2026-09-17 09:12:13 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:12:13] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 09:12:14 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:12:14] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 09:14:01 - INFO - werkzeug -  * Detected change in 'c:\\Users\\NU\\Desktop\\Dela Pena\\app.py', reloading
+2026-09-17 09:14:01 - INFO - werkzeug -  * Restarting with stat
+2026-09-17 09:14:01 - INFO - HardwareInventory - Database initialized successfully: c:\Users\NU\Desktop\Dela Pena\hardware_inventory.db
+2026-09-17 09:14:01 - WARNING - werkzeug -  * Debugger is active!
+2026-09-17 09:14:01 - INFO - werkzeug -  * Debugger PIN: 537-899-714
+2026-09-17 09:14:03 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:14:03] "GET / HTTP/1.1" 302 -
+2026-09-17 09:14:03 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:14:03] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 09:14:05 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:14:05] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 09:14:06 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:14:06] "GET /inventory HTTP/1.1" 200 -
+2026-09-17 09:14:06 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:14:06] "GET /returns HTTP/1.1" 200 -
+2026-09-17 09:14:07 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:14:07] "GET /reports HTTP/1.1" 200 -
+2026-09-17 09:14:07 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:14:07] "GET /account HTTP/1.1" 200 -
+2026-09-17 09:14:09 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:14:09] "GET /account HTTP/1.1" 200 -
+2026-09-17 09:14:09 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:14:09] "GET /account HTTP/1.1" 200 -
+2026-09-17 09:14:10 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:14:10] "GET /admin HTTP/1.1" 200 -
+2026-09-17 09:14:11 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:14:11] "GET /account HTTP/1.1" 200 -
+2026-09-17 09:14:11 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:14:11] "GET /admin HTTP/1.1" 200 -
+2026-09-17 09:14:12 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:14:12] "GET /account HTTP/1.1" 200 -
+2026-09-17 09:14:14 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:14:14] "GET /reports HTTP/1.1" 200 -
+2026-09-17 09:14:16 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:14:16] "GET /inventory HTTP/1.1" 200 -
+2026-09-17 09:14:17 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:14:17] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 09:14:18 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:14:18] "GET /inventory HTTP/1.1" 200 -
+2026-09-17 09:14:24 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:14:24] "GET /inventory HTTP/1.1" 200 -
+2026-09-17 09:14:31 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:14:31] "GET /logout HTTP/1.1" 302 -
+2026-09-17 09:14:31 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:14:31] "GET /login HTTP/1.1" 200 -
+2026-09-17 09:17:26 - INFO - HardwareInventory - Successful login: admin (ADMIN)
+2026-09-17 09:17:26 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:17:26] "POST /login HTTP/1.1" 302 -
+2026-09-17 09:17:26 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:17:26] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 09:17:48 - INFO - werkzeug -  * Detected change in 'c:\\Users\\NU\\Desktop\\Dela Pena\\app.py', reloading
+2026-09-17 09:17:48 - INFO - werkzeug -  * Restarting with stat
+2026-09-17 09:17:48 - INFO - HardwareInventory - Database initialized successfully: c:\Users\NU\Desktop\Dela Pena\hardware_inventory.db
+2026-09-17 09:17:48 - WARNING - werkzeug -  * Debugger is active!
+2026-09-17 09:17:48 - INFO - werkzeug -  * Debugger PIN: 537-899-714
+2026-09-17 09:17:51 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:17:51] "GET / HTTP/1.1" 302 -
+2026-09-17 09:17:51 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:17:51] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 09:17:55 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:17:55] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 09:17:56 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:17:56] "GET /logout HTTP/1.1" 302 -
+2026-09-17 09:17:56 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:17:56] "GET /login HTTP/1.1" 200 -
+2026-09-17 09:18:31 - INFO - werkzeug -  * Detected change in 'c:\\Users\\NU\\Desktop\\Dela Pena\\app.py', reloading
+2026-09-17 09:18:32 - INFO - werkzeug -  * Restarting with stat
+2026-09-17 09:18:32 - INFO - HardwareInventory - Database initialized successfully: c:\Users\NU\Desktop\Dela Pena\hardware_inventory.db
+2026-09-17 09:18:32 - WARNING - werkzeug -  * Debugger is active!
+2026-09-17 09:18:32 - INFO - werkzeug -  * Debugger PIN: 537-899-714
+2026-09-17 09:18:35 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:18:35] "GET / HTTP/1.1" 302 -
+2026-09-17 09:18:35 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:18:35] "GET /login HTTP/1.1" 200 -
+2026-09-17 09:18:43 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:18:43] "GET /account HTTP/1.1" 302 -
+2026-09-17 09:18:43 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:18:43] "GET /login HTTP/1.1" 200 -
+2026-09-17 09:19:21 - INFO - werkzeug -  * Detected change in 'c:\\Users\\NU\\Desktop\\Dela Pena\\app.py', reloading
+2026-09-17 09:19:21 - INFO - werkzeug -  * Restarting with stat
+2026-09-17 09:19:21 - INFO - HardwareInventory - Database initialized successfully: c:\Users\NU\Desktop\Dela Pena\hardware_inventory.db
+2026-09-17 09:19:21 - WARNING - werkzeug -  * Debugger is active!
+2026-09-17 09:19:21 - INFO - werkzeug -  * Debugger PIN: 537-899-714
+2026-09-17 09:19:27 - INFO - werkzeug -  * Detected change in 'c:\\Users\\NU\\Desktop\\Dela Pena\\app.py', reloading
+2026-09-17 09:19:27 - INFO - werkzeug -  * Restarting with stat
+2026-09-17 09:19:28 - INFO - HardwareInventory - Database initialized successfully: c:\Users\NU\Desktop\Dela Pena\hardware_inventory.db
+2026-09-17 09:19:28 - WARNING - werkzeug -  * Debugger is active!
+2026-09-17 09:19:28 - INFO - werkzeug -  * Debugger PIN: 537-899-714
+2026-09-17 09:19:30 - INFO - werkzeug -  * Detected change in 'c:\\Users\\NU\\Desktop\\Dela Pena\\app.py', reloading
+2026-09-17 09:19:30 - INFO - werkzeug -  * Restarting with stat
+2026-09-17 09:19:30 - INFO - HardwareInventory - Database initialized successfully: c:\Users\NU\Desktop\Dela Pena\hardware_inventory.db
+2026-09-17 09:19:30 - WARNING - werkzeug -  * Debugger is active!
+2026-09-17 09:19:30 - INFO - werkzeug -  * Debugger PIN: 537-899-714
+2026-09-17 09:19:34 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:19:34] "GET /login HTTP/1.1" 200 -
+2026-09-17 09:19:37 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:19:37] "GET /login HTTP/1.1" 200 -
+2026-09-17 09:19:51 - INFO - werkzeug -  * Detected change in 'c:\\Users\\NU\\Desktop\\Dela Pena\\app.py', reloading
+2026-09-17 09:19:51 - INFO - werkzeug -  * Restarting with stat
+2026-09-17 09:19:51 - INFO - HardwareInventory - Database initialized successfully: c:\Users\NU\Desktop\Dela Pena\hardware_inventory.db
+2026-09-17 09:19:51 - WARNING - werkzeug -  * Debugger is active!
+2026-09-17 09:19:51 - INFO - werkzeug -  * Debugger PIN: 537-899-714
+2026-09-17 09:19:52 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:19:52] "GET /login HTTP/1.1" 200 -
+2026-09-17 09:20:03 - INFO - werkzeug -  * Detected change in 'c:\\Users\\NU\\Desktop\\Dela Pena\\app.py', reloading
+2026-09-17 09:20:04 - INFO - werkzeug -  * Restarting with stat
+2026-09-17 09:20:04 - INFO - HardwareInventory - Database initialized successfully: c:\Users\NU\Desktop\Dela Pena\hardware_inventory.db
+2026-09-17 09:20:04 - WARNING - werkzeug -  * Debugger is active!
+2026-09-17 09:20:04 - INFO - werkzeug -  * Debugger PIN: 537-899-714
+2026-09-17 09:20:04 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:20:04] "GET /login HTTP/1.1" 200 -
+2026-09-17 09:20:30 - INFO - werkzeug -  * Detected change in 'c:\\Users\\NU\\Desktop\\Dela Pena\\app.py', reloading
+2026-09-17 09:20:30 - INFO - werkzeug -  * Restarting with stat
+2026-09-17 09:20:30 - INFO - HardwareInventory - Database initialized successfully: c:\Users\NU\Desktop\Dela Pena\hardware_inventory.db
+2026-09-17 09:20:30 - WARNING - werkzeug -  * Debugger is active!
+2026-09-17 09:20:30 - INFO - werkzeug -  * Debugger PIN: 537-899-714
+2026-09-17 09:20:32 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:20:32] "GET /login HTTP/1.1" 200 -
+2026-09-17 09:20:44 - INFO - HardwareInventory - Successful login: admin (ADMIN)
+2026-09-17 09:20:44 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:20:44] "POST /login HTTP/1.1" 302 -
+2026-09-17 09:20:44 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:20:44] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 09:21:27 - INFO - werkzeug -  * Detected change in 'c:\\Users\\NU\\Desktop\\Dela Pena\\app.py', reloading
+2026-09-17 09:21:27 - INFO - werkzeug -  * Restarting with stat
+2026-09-17 09:21:28 - INFO - HardwareInventory - Database initialized successfully: c:\Users\NU\Desktop\Dela Pena\hardware_inventory.db
+2026-09-17 09:21:28 - WARNING - werkzeug -  * Debugger is active!
+2026-09-17 09:21:28 - INFO - werkzeug -  * Debugger PIN: 537-899-714
+2026-09-17 09:21:31 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:21:31] "GET /login HTTP/1.1" 200 -
+2026-09-17 09:21:39 - INFO - werkzeug -  * Detected change in 'c:\\Users\\NU\\Desktop\\Dela Pena\\app.py', reloading
+2026-09-17 09:21:39 - INFO - werkzeug -  * Restarting with stat
+2026-09-17 09:21:39 - INFO - HardwareInventory - Database initialized successfully: c:\Users\NU\Desktop\Dela Pena\hardware_inventory.db
+2026-09-17 09:21:39 - WARNING - werkzeug -  * Debugger is active!
+2026-09-17 09:21:39 - INFO - werkzeug -  * Debugger PIN: 537-899-714
+2026-09-17 09:21:40 - INFO - werkzeug -  * Detected change in 'c:\\Users\\NU\\Desktop\\Dela Pena\\app.py', reloading
+2026-09-17 09:21:40 - INFO - werkzeug -  * Restarting with stat
+2026-09-17 09:21:41 - INFO - HardwareInventory - Database initialized successfully: c:\Users\NU\Desktop\Dela Pena\hardware_inventory.db
+2026-09-17 09:21:41 - WARNING - werkzeug -  * Debugger is active!
+2026-09-17 09:21:41 - INFO - werkzeug -  * Debugger PIN: 537-899-714
+2026-09-17 09:21:42 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:21:42] "GET /login HTTP/1.1" 200 -
+2026-09-17 09:22:02 - INFO - werkzeug -  * Detected change in 'c:\\Users\\NU\\Desktop\\Dela Pena\\app.py', reloading
+2026-09-17 09:22:02 - INFO - werkzeug -  * Restarting with stat
+2026-09-17 09:22:02 - INFO - HardwareInventory - Database initialized successfully: c:\Users\NU\Desktop\Dela Pena\hardware_inventory.db
+2026-09-17 09:22:02 - WARNING - werkzeug -  * Debugger is active!
+2026-09-17 09:22:02 - INFO - werkzeug -  * Debugger PIN: 537-899-714
+2026-09-17 09:22:02 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:22:02] "GET /login HTTP/1.1" 200 -
+2026-09-17 09:22:03 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:22:03] "GET /login HTTP/1.1" 200 -
+2026-09-17 09:22:03 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:22:03] "GET /login HTTP/1.1" 200 -
+2026-09-17 09:22:27 - INFO - werkzeug -  * Detected change in 'c:\\Users\\NU\\Desktop\\Dela Pena\\app.py', reloading
+2026-09-17 09:22:27 - INFO - werkzeug -  * Restarting with stat
+2026-09-17 09:22:27 - INFO - HardwareInventory - Database initialized successfully: c:\Users\NU\Desktop\Dela Pena\hardware_inventory.db
+2026-09-17 09:22:27 - WARNING - werkzeug -  * Debugger is active!
+2026-09-17 09:22:27 - INFO - werkzeug -  * Debugger PIN: 537-899-714
+2026-09-17 09:22:31 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:22:31] "GET /login HTTP/1.1" 200 -
+2026-09-17 09:22:56 - INFO - werkzeug -  * Detected change in 'c:\\Users\\NU\\Desktop\\Dela Pena\\app.py', reloading
+2026-09-17 09:22:57 - INFO - werkzeug -  * Restarting with stat
+2026-09-17 09:22:57 - INFO - HardwareInventory - Database initialized successfully: c:\Users\NU\Desktop\Dela Pena\hardware_inventory.db
+2026-09-17 09:22:57 - WARNING - werkzeug -  * Debugger is active!
+2026-09-17 09:22:57 - INFO - werkzeug -  * Debugger PIN: 537-899-714
+2026-09-17 09:22:58 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:22:58] "GET /login HTTP/1.1" 200 -
+2026-09-17 09:23:19 - INFO - werkzeug -  * Detected change in 'c:\\Users\\NU\\Desktop\\Dela Pena\\app.py', reloading
+2026-09-17 09:23:19 - INFO - werkzeug -  * Restarting with stat
+2026-09-17 09:23:19 - INFO - HardwareInventory - Database initialized successfully: c:\Users\NU\Desktop\Dela Pena\hardware_inventory.db
+2026-09-17 09:23:19 - WARNING - werkzeug -  * Debugger is active!
+2026-09-17 09:23:19 - INFO - werkzeug -  * Debugger PIN: 537-899-714
+2026-09-17 09:23:20 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:23:20] "GET /login HTTP/1.1" 200 -
+2026-09-17 09:23:51 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:23:51] "POST /login HTTP/1.1" 200 -
+2026-09-17 09:23:58 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:23:58] "POST /login HTTP/1.1" 200 -
+2026-09-17 09:24:12 - INFO - HardwareInventory - Successful login: Marian (USER)
+2026-09-17 09:24:12 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:24:12] "POST /login HTTP/1.1" 302 -
+2026-09-17 09:24:12 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:24:12] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 09:24:18 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:24:18] "GET /logout HTTP/1.1" 302 -
+2026-09-17 09:24:18 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:24:18] "GET /login HTTP/1.1" 200 -
+2026-09-17 09:25:20 - INFO - HardwareInventory - Successful login: Marian (USER)
+2026-09-17 09:25:20 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:25:20] "POST /login HTTP/1.1" 302 -
+2026-09-17 09:25:20 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:25:20] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 09:25:42 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:25:42] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 09:25:42 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:25:42] "GET /inventory HTTP/1.1" 200 -
+2026-09-17 09:25:51 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:25:51] "GET /inventory HTTP/1.1" 200 -
+2026-09-17 09:25:52 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:25:52] "GET /returns HTTP/1.1" 200 -
+2026-09-17 09:25:53 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:25:53] "GET /account HTTP/1.1" 200 -
+2026-09-17 09:25:53 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:25:53] "GET /reports HTTP/1.1" 200 -
+2026-09-17 09:25:54 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:25:54] "GET /returns HTTP/1.1" 200 -
+2026-09-17 09:25:55 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:25:55] "GET /account HTTP/1.1" 200 -
+2026-09-17 09:25:58 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:25:58] "GET /reports HTTP/1.1" 200 -
+2026-09-17 09:26:01 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:26:01] "GET /returns HTTP/1.1" 200 -
+2026-09-17 09:26:05 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:26:05] "GET /returns HTTP/1.1" 200 -
+2026-09-17 09:26:05 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:26:05] "GET /returns HTTP/1.1" 200 -
+2026-09-17 09:26:06 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:26:06] "GET /inventory HTTP/1.1" 200 -
+2026-09-17 09:26:09 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:26:09] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 09:26:11 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:26:11] "GET /returns HTTP/1.1" 200 -
+2026-09-17 09:26:11 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:26:11] "GET /inventory HTTP/1.1" 200 -
+2026-09-17 09:26:15 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:26:15] "GET /inventory HTTP/1.1" 200 -
+2026-09-17 09:26:15 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:26:15] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 09:26:16 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:26:16] "GET /inventory HTTP/1.1" 200 -
+2026-09-17 09:27:02 - INFO - werkzeug -  * Detected change in 'c:\\Users\\NU\\Desktop\\Dela Pena\\app.py', reloading
+2026-09-17 09:27:02 - INFO - werkzeug -  * Restarting with stat
+2026-09-17 09:27:02 - INFO - HardwareInventory - Database initialized successfully: c:\Users\NU\Desktop\Dela Pena\hardware_inventory.db
+2026-09-17 09:27:02 - WARNING - werkzeug -  * Debugger is active!
+2026-09-17 09:27:02 - INFO - werkzeug -  * Debugger PIN: 537-899-714
+2026-09-17 09:27:12 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:27:12] "GET /inventory HTTP/1.1" 200 -
+2026-09-17 09:27:15 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:27:15] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 09:27:27 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:27:27] "GET /inventory HTTP/1.1" 200 -
+2026-09-17 09:27:28 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:27:28] "GET /returns HTTP/1.1" 200 -
+2026-09-17 09:27:33 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:27:33] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 09:27:35 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:27:35] "GET /inventory HTTP/1.1" 200 -
+2026-09-17 09:27:38 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:27:38] "GET /returns HTTP/1.1" 200 -
+2026-09-17 09:27:39 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:27:39] "GET /reports HTTP/1.1" 200 -
+2026-09-17 09:27:39 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:27:39] "GET /account HTTP/1.1" 200 -
+2026-09-17 09:27:40 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:27:40] "GET /reports HTTP/1.1" 200 -
+2026-09-17 09:27:41 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:27:41] "GET /reports HTTP/1.1" 200 -
+2026-09-17 09:27:41 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:27:41] "GET /account HTTP/1.1" 200 -
+2026-09-17 09:27:43 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:27:43] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 09:27:48 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:27:48] "GET /inventory HTTP/1.1" 200 -
+2026-09-17 09:27:52 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:27:52] "GET /returns HTTP/1.1" 200 -
+2026-09-17 09:27:54 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:27:54] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 09:27:55 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:27:55] "GET /inventory HTTP/1.1" 200 -
+2026-09-17 09:28:01 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:28:01] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 09:28:03 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:28:03] "GET /inventory HTTP/1.1" 200 -
+2026-09-17 09:28:15 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:28:15] "GET /returns HTTP/1.1" 200 -
+2026-09-17 09:28:29 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:28:29] "GET /inventory HTTP/1.1" 200 -
+2026-09-17 09:28:31 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:28:31] "GET /returns HTTP/1.1" 200 -
+2026-09-17 09:28:56 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:28:56] "GET /reports HTTP/1.1" 200 -
+2026-09-17 09:28:57 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:28:57] "GET /account HTTP/1.1" 200 -
+2026-09-17 09:28:57 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:28:57] "GET /inventory HTTP/1.1" 200 -
+2026-09-17 09:28:58 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:28:58] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 09:33:21 - INFO - werkzeug -  * Detected change in 'c:\\Users\\NU\\Desktop\\Dela Pena\\app.py', reloading
+2026-09-17 09:33:21 - INFO - werkzeug -  * Restarting with stat
+2026-09-17 09:33:21 - INFO - HardwareInventory - Database initialized successfully: c:\Users\NU\Desktop\Dela Pena\hardware_inventory.db
+2026-09-17 09:33:21 - WARNING - werkzeug -  * Debugger is active!
+2026-09-17 09:33:21 - INFO - werkzeug -  * Debugger PIN: 537-899-714
+2026-09-17 09:33:23 - INFO - werkzeug -  * Detected change in 'c:\\Users\\NU\\Desktop\\Dela Pena\\app.py', reloading
+2026-09-17 09:33:23 - INFO - werkzeug -  * Restarting with stat
+2026-09-17 09:33:24 - INFO - HardwareInventory - Database initialized successfully: c:\Users\NU\Desktop\Dela Pena\hardware_inventory.db
+2026-09-17 09:33:24 - WARNING - werkzeug -  * Debugger is active!
+2026-09-17 09:33:24 - INFO - werkzeug -  * Debugger PIN: 537-899-714
+2026-09-17 09:33:27 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:33:27] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 09:33:29 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:33:29] "GET /borrow HTTP/1.1" 200 -
+2026-09-17 09:33:34 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:33:34] "GET /returns HTTP/1.1" 200 -
+2026-09-17 09:33:34 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:33:34] "GET /borrow HTTP/1.1" 200 -
+2026-09-17 09:33:36 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:33:36] "GET /inventory HTTP/1.1" 200 -
+2026-09-17 09:33:37 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:33:37] "GET /borrow HTTP/1.1" 200 -
+2026-09-17 09:33:37 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:33:37] "GET /returns HTTP/1.1" 200 -
+2026-09-17 09:33:38 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:33:38] "GET /borrow HTTP/1.1" 200 -
+2026-09-17 09:33:50 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:33:50] "POST /borrow HTTP/1.1" 302 -
+2026-09-17 09:33:50 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:33:50] "GET /borrow HTTP/1.1" 200 -
+2026-09-17 09:34:05 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:34:05] "GET /logout HTTP/1.1" 302 -
+2026-09-17 09:34:05 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:34:05] "GET /login HTTP/1.1" 200 -
+2026-09-17 09:34:16 - INFO - HardwareInventory - Successful login: admin (ADMIN)
+2026-09-17 09:34:16 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:34:16] "POST /login HTTP/1.1" 302 -
+2026-09-17 09:34:16 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:34:16] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 09:34:19 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:34:19] "GET /borrow HTTP/1.1" 200 -
+2026-09-17 09:34:24 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:34:24] "GET /returns HTTP/1.1" 200 -
+2026-09-17 09:34:25 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:34:25] "GET /reports HTTP/1.1" 200 -
+2026-09-17 09:34:25 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:34:25] "GET /account HTTP/1.1" 200 -
+2026-09-17 09:34:27 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:34:27] "GET /inventory HTTP/1.1" 200 -
+2026-09-17 09:34:27 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:34:27] "GET /borrow HTTP/1.1" 200 -
+2026-09-17 09:34:30 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:34:30] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 09:34:36 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:34:36] "GET /inventory HTTP/1.1" 200 -
+2026-09-17 09:34:41 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:34:41] "GET /borrow HTTP/1.1" 200 -
+2026-09-17 09:34:44 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:34:44] "GET /returns HTTP/1.1" 200 -
+2026-09-17 09:34:47 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:34:47] "GET /reports HTTP/1.1" 200 -
+2026-09-17 09:34:49 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:34:49] "GET /account HTTP/1.1" 200 -
+2026-09-17 09:34:54 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:34:54] "GET /admin HTTP/1.1" 200 -
+2026-09-17 09:35:09 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:35:09] "POST /admin/borrow/1 HTTP/1.1" 302 -
+2026-09-17 09:35:09 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:35:09] "GET /admin HTTP/1.1" 200 -
+2026-09-17 09:35:17 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:35:17] "GET /logout HTTP/1.1" 302 -
+2026-09-17 09:35:17 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:35:17] "GET /login HTTP/1.1" 200 -
+2026-09-17 09:35:22 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:35:22] "GET /register HTTP/1.1" 200 -
+2026-09-17 09:35:25 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:35:25] "GET /login HTTP/1.1" 200 -
+2026-09-17 09:35:25 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:35:25] "GET /register HTTP/1.1" 200 -
+2026-09-17 09:35:28 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:35:28] "GET /login HTTP/1.1" 200 -
+2026-09-17 09:35:37 - INFO - HardwareInventory - Successful login: Marian (USER)
+2026-09-17 09:35:37 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:35:37] "POST /login HTTP/1.1" 302 -
+2026-09-17 09:35:37 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:35:37] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 09:35:40 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:35:40] "GET /inventory HTTP/1.1" 200 -
+2026-09-17 09:35:40 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:35:40] "GET /borrow HTTP/1.1" 200 -
+2026-09-17 09:35:44 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:35:44] "GET /returns HTTP/1.1" 200 -
+2026-09-17 09:35:45 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:35:45] "GET /borrow HTTP/1.1" 200 -
+2026-09-17 09:35:46 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:35:46] "GET /returns HTTP/1.1" 200 -
+2026-09-17 09:36:01 - INFO - HardwareInventory - Return recorded: Arduino Uno | Qty: 2 | Condition: Fair | By: Marian
+2026-09-17 09:36:01 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:36:01] "POST /returns HTTP/1.1" 302 -
+2026-09-17 09:36:01 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:36:01] "GET /returns HTTP/1.1" 200 -
+2026-09-17 09:36:05 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:36:05] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 09:36:17 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:36:17] "GET /inventory HTTP/1.1" 200 -
+2026-09-17 09:36:17 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:36:17] "GET /borrow HTTP/1.1" 200 -
+2026-09-17 09:36:18 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:36:18] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 09:36:21 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:36:21] "GET /logout HTTP/1.1" 302 -
+2026-09-17 09:36:21 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:36:21] "GET /login HTTP/1.1" 200 -
+2026-09-17 09:36:34 - INFO - HardwareInventory - Successful login: Marian (USER)
+2026-09-17 09:36:34 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:36:34] "POST /login HTTP/1.1" 302 -
+2026-09-17 09:36:34 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:36:34] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 09:36:40 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:36:40] "GET /inventory HTTP/1.1" 200 -
+2026-09-17 09:36:42 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:36:42] "GET /borrow HTTP/1.1" 200 -
+2026-09-17 09:36:45 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:36:45] "GET /returns HTTP/1.1" 200 -
+2026-09-17 09:36:48 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:36:48] "GET /reports HTTP/1.1" 200 -
+2026-09-17 09:36:49 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:36:49] "GET /account HTTP/1.1" 200 -
+2026-09-17 09:36:58 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:36:58] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 09:37:38 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:37:38] "GET /inventory HTTP/1.1" 200 -
+2026-09-17 09:37:38 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:37:38] "GET /returns HTTP/1.1" 200 -
+2026-09-17 09:37:38 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:37:38] "GET /borrow HTTP/1.1" 200 -
+2026-09-17 09:37:46 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:37:46] "POST /borrow HTTP/1.1" 302 -
+2026-09-17 09:37:46 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:37:46] "GET /borrow HTTP/1.1" 200 -
+2026-09-17 09:40:44 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:40:44] "GET /returns HTTP/1.1" 200 -
+2026-09-17 09:40:52 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:40:52] "GET /borrow HTTP/1.1" 200 -
+2026-09-17 09:43:57 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:43:57] "GET /logout HTTP/1.1" 302 -
+2026-09-17 09:43:57 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:43:57] "GET /login HTTP/1.1" 200 -
+2026-09-17 09:44:05 - INFO - HardwareInventory - Successful login: admin (ADMIN)
+2026-09-17 09:44:05 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:44:05] "POST /login HTTP/1.1" 302 -
+2026-09-17 09:44:05 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:44:05] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 09:44:07 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:44:07] "GET /account HTTP/1.1" 200 -
+2026-09-17 09:44:08 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:44:08] "GET /admin HTTP/1.1" 200 -
+2026-09-17 09:44:10 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:44:10] "POST /admin/borrow/2 HTTP/1.1" 302 -
+2026-09-17 09:44:10 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:44:10] "GET /admin HTTP/1.1" 200 -
+2026-09-17 09:44:11 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:44:11] "GET /logout HTTP/1.1" 302 -
+2026-09-17 09:44:11 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:44:11] "GET /login HTTP/1.1" 200 -
+2026-09-17 09:44:20 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:44:20] "POST /login HTTP/1.1" 200 -
+2026-09-17 09:44:27 - INFO - HardwareInventory - Successful login: Marian (USER)
+2026-09-17 09:44:27 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:44:27] "POST /login HTTP/1.1" 302 -
+2026-09-17 09:44:27 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:44:27] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 09:44:28 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:44:28] "GET /borrow HTTP/1.1" 200 -
+2026-09-17 09:44:32 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:44:32] "GET /returns HTTP/1.1" 200 -
+2026-09-17 09:44:33 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:44:33] "GET /reports HTTP/1.1" 200 -
+2026-09-17 09:44:34 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:44:34] "GET /inventory HTTP/1.1" 200 -
+2026-09-17 09:44:40 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:44:40] "GET /borrow HTTP/1.1" 200 -
+2026-09-17 09:44:41 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:44:41] "GET /inventory HTTP/1.1" 200 -
+2026-09-17 09:44:42 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:44:42] "GET /borrow HTTP/1.1" 200 -
+2026-09-17 09:44:43 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:44:43] "GET /inventory HTTP/1.1" 200 -
+2026-09-17 09:44:57 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:44:57] "GET /borrow HTTP/1.1" 200 -
+2026-09-17 09:45:16 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:45:16] "GET /returns HTTP/1.1" 200 -
+2026-09-17 09:45:21 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:45:21] "GET /logout HTTP/1.1" 302 -
+2026-09-17 09:45:21 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:45:21] "GET /login HTTP/1.1" 200 -
+2026-09-17 09:45:28 - INFO - HardwareInventory - Successful login: Marian (USER)
+2026-09-17 09:45:28 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:45:28] "POST /login HTTP/1.1" 302 -
+2026-09-17 09:45:28 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:45:28] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 09:45:30 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:45:30] "GET /returns HTTP/1.1" 200 -
+2026-09-17 09:45:43 - INFO - HardwareInventory - Return recorded: Temperature Sensor | Qty: 10 | Condition: Good | By: Marian
+2026-09-17 09:45:43 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:45:43] "POST /returns HTTP/1.1" 302 -
+2026-09-17 09:45:43 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:45:43] "GET /returns HTTP/1.1" 200 -
+2026-09-17 09:45:47 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:45:47] "GET /inventory HTTP/1.1" 200 -
+2026-09-17 09:45:51 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:45:51] "GET /borrow HTTP/1.1" 200 -
+2026-09-17 09:46:01 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:46:01] "GET /logout HTTP/1.1" 302 -
+2026-09-17 09:46:01 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:46:01] "GET /login HTTP/1.1" 200 -
+2026-09-17 09:46:07 - INFO - HardwareInventory - Successful login: admin (ADMIN)
+2026-09-17 09:46:07 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:46:07] "POST /login HTTP/1.1" 302 -
+2026-09-17 09:46:07 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:46:07] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 09:46:09 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:46:09] "GET /inventory HTTP/1.1" 200 -
+2026-09-17 09:46:10 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:46:10] "GET /returns HTTP/1.1" 200 -
+2026-09-17 09:46:15 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:46:15] "GET /borrow HTTP/1.1" 200 -
+2026-09-17 09:46:16 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:46:16] "GET /returns HTTP/1.1" 200 -
+2026-09-17 09:46:17 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:46:17] "GET /reports HTTP/1.1" 200 -
+2026-09-17 09:46:18 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:46:18] "GET /account HTTP/1.1" 200 -
+2026-09-17 09:46:19 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:46:19] "GET /borrow HTTP/1.1" 200 -
+2026-09-17 09:46:20 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:46:20] "GET /returns HTTP/1.1" 200 -
+2026-09-17 09:46:20 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:46:20] "GET /inventory HTTP/1.1" 200 -
+2026-09-17 09:46:26 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:46:26] "GET /returns HTTP/1.1" 200 -
+2026-09-17 09:46:29 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:46:29] "GET /account HTTP/1.1" 200 -
+2026-09-17 09:46:30 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:46:30] "GET /reports HTTP/1.1" 200 -
+2026-09-17 09:46:31 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:46:31] "GET /admin HTTP/1.1" 200 -
+2026-09-17 09:46:33 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:46:33] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 09:46:34 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:46:34] "GET /admin HTTP/1.1" 200 -
+2026-09-17 09:46:40 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:46:40] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 09:46:44 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:46:44] "GET /returns HTTP/1.1" 200 -
+2026-09-17 09:48:47 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:48:47] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 09:49:12 - INFO - werkzeug -  * Detected change in 'c:\\Users\\NU\\Desktop\\Dela Pena\\app.py', reloading
+2026-09-17 09:49:12 - INFO - werkzeug -  * Restarting with stat
+2026-09-17 09:49:13 - INFO - HardwareInventory - Database initialized successfully: c:\Users\NU\Desktop\Dela Pena\hardware_inventory.db
+2026-09-17 09:49:13 - WARNING - werkzeug -  * Debugger is active!
+2026-09-17 09:49:13 - INFO - werkzeug -  * Debugger PIN: 537-899-714
+2026-09-17 09:49:18 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:49:18] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 09:49:21 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:49:21] "GET /reports HTTP/1.1" 200 -
+2026-09-17 09:49:22 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:49:22] "GET /returns HTTP/1.1" 200 -
+2026-09-17 09:49:26 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:49:26] "GET /account HTTP/1.1" 200 -
+2026-09-17 09:49:28 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:49:28] "GET /reports HTTP/1.1" 200 -
+2026-09-17 09:49:29 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:49:29] "GET /inventory HTTP/1.1" 200 -
+2026-09-17 09:49:29 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:49:29] "GET /borrow HTTP/1.1" 200 -
+2026-09-17 09:49:30 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:49:30] "GET /returns HTTP/1.1" 200 -
+2026-09-17 09:49:33 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:49:33] "GET /logout HTTP/1.1" 302 -
+2026-09-17 09:49:33 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:49:33] "GET /login HTTP/1.1" 200 -
+2026-09-17 09:49:50 - INFO - HardwareInventory - Successful login: Marian (USER)
+2026-09-17 09:49:50 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:49:50] "POST /login HTTP/1.1" 302 -
+2026-09-17 09:49:50 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:49:50] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 09:49:53 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:49:53] "GET /inventory HTTP/1.1" 200 -
+2026-09-17 09:49:53 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:49:53] "GET /borrow HTTP/1.1" 200 -
+2026-09-17 09:50:02 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:50:02] "POST /borrow HTTP/1.1" 302 -
+2026-09-17 09:50:02 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:50:02] "GET /borrow HTTP/1.1" 200 -
+2026-09-17 09:50:04 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:50:04] "GET /logout HTTP/1.1" 302 -
+2026-09-17 09:50:04 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:50:04] "GET /login HTTP/1.1" 200 -
+2026-09-17 09:50:10 - INFO - HardwareInventory - Successful login: admin (ADMIN)
+2026-09-17 09:50:10 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:50:10] "POST /login HTTP/1.1" 302 -
+2026-09-17 09:50:10 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:50:10] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 09:50:15 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:50:15] "GET /borrow HTTP/1.1" 200 -
+2026-09-17 09:50:16 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:50:16] "GET /returns HTTP/1.1" 200 -
+2026-09-17 09:50:17 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:50:17] "GET /inventory HTTP/1.1" 200 -
+2026-09-17 09:50:17 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:50:17] "GET /borrow HTTP/1.1" 200 -
+2026-09-17 09:50:19 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:50:19] "GET /account HTTP/1.1" 200 -
+2026-09-17 09:50:20 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:50:20] "GET /admin HTTP/1.1" 200 -
+2026-09-17 09:50:28 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:50:28] "POST /admin/borrow/3 HTTP/1.1" 302 -
+2026-09-17 09:50:28 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:50:28] "GET /admin HTTP/1.1" 200 -
+2026-09-17 09:50:30 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:50:30] "GET /logout HTTP/1.1" 302 -
+2026-09-17 09:50:30 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:50:30] "GET /login HTTP/1.1" 200 -
+2026-09-17 09:50:37 - INFO - HardwareInventory - Successful login: Marian (USER)
+2026-09-17 09:50:37 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:50:37] "POST /login HTTP/1.1" 302 -
+2026-09-17 09:50:37 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:50:37] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 09:50:40 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:50:40] "GET /inventory HTTP/1.1" 200 -
+2026-09-17 09:50:43 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:50:43] "GET /borrow HTTP/1.1" 200 -
+2026-09-17 09:50:45 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:50:45] "GET /returns HTTP/1.1" 200 -
+2026-09-17 09:50:49 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:50:49] "GET /account HTTP/1.1" 200 -
+2026-09-17 09:50:50 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:50:50] "GET /reports HTTP/1.1" 200 -
+2026-09-17 09:50:50 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:50:50] "GET /returns HTTP/1.1" 200 -
+2026-09-17 09:50:51 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:50:51] "GET /borrow HTTP/1.1" 200 -
+2026-09-17 09:50:52 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:50:52] "GET /reports HTTP/1.1" 200 -
+2026-09-17 09:50:53 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:50:53] "GET /returns HTTP/1.1" 200 -
+2026-09-17 09:51:02 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:51:02] "POST /returns HTTP/1.1" 302 -
+2026-09-17 09:51:02 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:51:02] "GET /returns HTTP/1.1" 200 -
+2026-09-17 09:51:50 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:51:50] "GET /logout HTTP/1.1" 302 -
+2026-09-17 09:51:50 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:51:50] "GET /login HTTP/1.1" 200 -
+2026-09-17 09:51:58 - INFO - HardwareInventory - Successful login: admin (ADMIN)
+2026-09-17 09:51:58 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:51:58] "POST /login HTTP/1.1" 302 -
+2026-09-17 09:51:58 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:51:58] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 09:52:00 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:52:00] "GET /admin HTTP/1.1" 200 -
+2026-09-17 09:52:05 - INFO - HardwareInventory - Return recorded: Arduino Uno | Qty: 5 | Condition: Fair | By: Marian
+2026-09-17 09:52:05 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:52:05] "POST /admin/return/1 HTTP/1.1" 302 -
+2026-09-17 09:52:05 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:52:05] "GET /admin HTTP/1.1" 200 -
+2026-09-17 09:52:11 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:52:11] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 09:52:16 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:52:16] "GET /inventory HTTP/1.1" 200 -
+2026-09-17 09:52:17 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:52:17] "GET /borrow HTTP/1.1" 200 -
+2026-09-17 09:52:18 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:52:18] "GET /returns HTTP/1.1" 200 -
+2026-09-17 09:52:19 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:52:19] "GET /reports HTTP/1.1" 200 -
+2026-09-17 09:52:20 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:52:20] "GET /account HTTP/1.1" 200 -
+2026-09-17 09:52:21 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:52:21] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 09:52:35 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:52:35] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 09:52:36 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:52:36] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 09:52:36 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:52:36] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 09:52:36 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:52:36] "GET /inventory HTTP/1.1" 200 -
+2026-09-17 09:52:37 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:52:37] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 09:52:38 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:52:38] "GET /inventory HTTP/1.1" 200 -
+2026-09-17 09:52:40 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:52:40] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 09:52:45 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:52:45] "GET /borrow HTTP/1.1" 200 -
+2026-09-17 09:52:46 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:52:46] "GET /returns HTTP/1.1" 200 -
+2026-09-17 09:52:51 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:52:51] "GET /reports HTTP/1.1" 200 -
+2026-09-17 09:52:52 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:52:52] "GET /account HTTP/1.1" 200 -
+2026-09-17 09:52:54 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:52:54] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 09:52:56 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:52:56] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 09:53:01 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:53:01] "GET /inventory HTTP/1.1" 200 -
+2026-09-17 09:53:02 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:53:02] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 09:57:44 - INFO - werkzeug -  * Detected change in 'c:\\Users\\NU\\Desktop\\Dela Pena\\app.py', reloading
+2026-09-17 09:57:44 - INFO - werkzeug -  * Restarting with stat
+2026-09-17 09:57:45 - INFO - HardwareInventory - Database initialized successfully: c:\Users\NU\Desktop\Dela Pena\hardware_inventory.db
+2026-09-17 09:57:45 - WARNING - werkzeug -  * Debugger is active!
+2026-09-17 09:57:45 - INFO - werkzeug -  * Debugger PIN: 537-899-714
+2026-09-17 09:57:46 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:57:46] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 09:57:57 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:57:57] "GET /inventory HTTP/1.1" 200 -
+2026-09-17 09:57:58 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:57:58] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 09:58:14 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:58:14] "GET /logout HTTP/1.1" 302 -
+2026-09-17 09:58:14 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:58:14] "GET /login HTTP/1.1" 200 -
+2026-09-17 09:58:22 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:58:22] "POST /login HTTP/1.1" 200 -
+2026-09-17 09:58:31 - INFO - HardwareInventory - Successful login: Marian (USER)
+2026-09-17 09:58:31 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:58:31] "POST /login HTTP/1.1" 302 -
+2026-09-17 09:58:31 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:58:31] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 09:58:34 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:58:34] "GET /borrow HTTP/1.1" 200 -
+2026-09-17 09:58:52 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:58:52] "POST /borrow HTTP/1.1" 302 -
+2026-09-17 09:58:52 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:58:52] "GET /borrow HTTP/1.1" 200 -
+2026-09-17 09:58:59 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:58:59] "GET /logout HTTP/1.1" 302 -
+2026-09-17 09:58:59 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:58:59] "GET /login HTTP/1.1" 200 -
+2026-09-17 09:59:08 - INFO - HardwareInventory - Successful login: admin (ADMIN)
+2026-09-17 09:59:08 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:59:08] "POST /login HTTP/1.1" 302 -
+2026-09-17 09:59:08 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:59:08] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 09:59:16 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:59:16] "GET /account HTTP/1.1" 200 -
+2026-09-17 09:59:17 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:59:17] "GET /admin HTTP/1.1" 200 -
+2026-09-17 09:59:17 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:59:17] "GET /inventory HTTP/1.1" 200 -
+2026-09-17 09:59:18 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:59:18] "GET /borrow HTTP/1.1" 200 -
+2026-09-17 09:59:19 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:59:19] "GET /returns HTTP/1.1" 200 -
+2026-09-17 09:59:20 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:59:20] "GET /reports HTTP/1.1" 200 -
+2026-09-17 09:59:21 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:59:21] "GET /account HTTP/1.1" 200 -
+2026-09-17 09:59:21 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:59:21] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 09:59:33 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:59:33] "GET /admin HTTP/1.1" 200 -
+2026-09-17 09:59:55 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:59:55] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 09:59:59 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 09:59:59] "GET /admin HTTP/1.1" 200 -
+2026-09-17 10:00:01 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 10:00:01] "POST /admin/borrow/4 HTTP/1.1" 302 -
+2026-09-17 10:00:01 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 10:00:01] "GET /admin HTTP/1.1" 200 -
+2026-09-17 10:00:02 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 10:00:02] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 10:00:06 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 10:00:06] "GET /logout HTTP/1.1" 302 -
+2026-09-17 10:00:06 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 10:00:06] "GET /login HTTP/1.1" 200 -
+2026-09-17 10:00:14 - INFO - HardwareInventory - Successful login: Marian (USER)
+2026-09-17 10:00:14 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 10:00:14] "POST /login HTTP/1.1" 302 -
+2026-09-17 10:00:14 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 10:00:14] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 10:00:16 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 10:00:16] "GET /borrow HTTP/1.1" 200 -
+2026-09-17 10:00:22 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 10:00:22] "POST /borrow HTTP/1.1" 302 -
+2026-09-17 10:00:22 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 10:00:22] "GET /borrow HTTP/1.1" 200 -
+2026-09-17 10:00:24 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 10:00:24] "GET /logout HTTP/1.1" 302 -
+2026-09-17 10:00:24 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 10:00:24] "GET /login HTTP/1.1" 200 -
+2026-09-17 10:00:31 - INFO - HardwareInventory - Successful login: admin (ADMIN)
+2026-09-17 10:00:31 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 10:00:31] "POST /login HTTP/1.1" 302 -
+2026-09-17 10:00:31 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 10:00:31] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 10:00:33 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 10:00:33] "GET /admin HTTP/1.1" 200 -
+2026-09-17 10:00:55 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 10:00:55] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 10:00:57 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 10:00:57] "GET /admin HTTP/1.1" 200 -
+2026-09-17 10:00:58 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 10:00:58] "POST /admin/borrow/5 HTTP/1.1" 302 -
+2026-09-17 10:00:58 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 10:00:58] "GET /admin HTTP/1.1" 200 -
+2026-09-17 10:01:00 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 10:01:00] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 10:01:08 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 10:01:08] "GET /logout HTTP/1.1" 302 -
+2026-09-17 10:01:08 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 10:01:08] "GET /login HTTP/1.1" 200 -
+2026-09-17 10:01:15 - INFO - HardwareInventory - Successful login: Marian (USER)
+2026-09-17 10:01:15 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 10:01:15] "POST /login HTTP/1.1" 302 -
+2026-09-17 10:01:15 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 10:01:15] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 10:01:16 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 10:01:16] "GET /borrow HTTP/1.1" 200 -
+2026-09-17 10:01:27 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 10:01:27] "POST /borrow HTTP/1.1" 302 -
+2026-09-17 10:01:27 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 10:01:27] "GET /borrow HTTP/1.1" 200 -
+2026-09-17 10:01:43 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 10:01:43] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 10:01:53 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 10:01:53] "GET /returns HTTP/1.1" 200 -
+2026-09-17 10:01:56 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 10:01:56] "GET /logout HTTP/1.1" 302 -
+2026-09-17 10:01:56 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 10:01:56] "GET /login HTTP/1.1" 200 -
+2026-09-17 10:02:02 - INFO - HardwareInventory - Successful login: admin (ADMIN)
+2026-09-17 10:02:02 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 10:02:02] "POST /login HTTP/1.1" 302 -
+2026-09-17 10:02:02 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 10:02:02] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 10:02:03 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 10:02:03] "GET /admin HTTP/1.1" 200 -
+2026-09-17 10:02:08 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 10:02:08] "POST /admin/borrow/6 HTTP/1.1" 302 -
+2026-09-17 10:02:08 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 10:02:08] "GET /admin HTTP/1.1" 200 -
+2026-09-17 10:02:10 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 10:02:10] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 10:02:18 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 10:02:18] "GET /logout HTTP/1.1" 302 -
+2026-09-17 10:02:18 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 10:02:18] "GET /login HTTP/1.1" 200 -
+2026-09-17 10:02:27 - INFO - HardwareInventory - Successful login: Marian (USER)
+2026-09-17 10:02:27 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 10:02:27] "POST /login HTTP/1.1" 302 -
+2026-09-17 10:02:27 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 10:02:27] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 10:02:29 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 10:02:29] "GET /returns HTTP/1.1" 200 -
+2026-09-17 10:02:31 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 10:02:31] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 10:02:38 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 10:02:38] "GET /borrow HTTP/1.1" 200 -
+2026-09-17 10:02:39 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 10:02:39] "GET /returns HTTP/1.1" 200 -
+2026-09-17 10:02:43 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 10:02:43] "POST /returns HTTP/1.1" 302 -
+2026-09-17 10:02:43 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 10:02:43] "GET /returns HTTP/1.1" 200 -
+2026-09-17 10:02:44 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 10:02:44] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 10:02:52 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 10:02:52] "GET /logout HTTP/1.1" 302 -
+2026-09-17 10:02:52 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 10:02:52] "GET /login HTTP/1.1" 200 -
+2026-09-17 10:02:59 - INFO - HardwareInventory - Successful login: admin (ADMIN)
+2026-09-17 10:02:59 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 10:02:59] "POST /login HTTP/1.1" 302 -
+2026-09-17 10:02:59 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 10:02:59] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 10:04:05 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 10:04:05] "GET /admin HTTP/1.1" 200 -
+2026-09-17 10:04:06 - INFO - HardwareInventory - Return recorded: push button | Qty: 1 | Condition: Good | By: Marian
+2026-09-17 10:04:06 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 10:04:06] "POST /admin/return/2 HTTP/1.1" 302 -
+2026-09-17 10:04:06 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 10:04:06] "GET /admin HTTP/1.1" 200 -
+2026-09-17 10:04:09 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 10:04:09] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 10:04:24 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 10:04:24] "GET /inventory HTTP/1.1" 200 -
+2026-09-17 10:04:25 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 10:04:25] "GET /dashboard HTTP/1.1" 200 -
+2026-09-17 10:04:35 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 10:04:35] "GET /inventory HTTP/1.1" 200 -
+2026-09-17 10:04:37 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 10:04:37] "GET /borrow HTTP/1.1" 200 -
+2026-09-17 10:04:38 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 10:04:38] "GET /returns HTTP/1.1" 200 -
+2026-09-17 10:04:39 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 10:04:39] "GET /reports HTTP/1.1" 200 -
+2026-09-17 10:04:39 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 10:04:39] "GET /account HTTP/1.1" 200 -
+2026-09-17 10:04:40 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 10:04:40] "GET /admin HTTP/1.1" 200 -
+2026-09-17 10:04:40 - INFO - werkzeug - 127.0.0.1 - - [17/Sep/2026 10:04:40] "GET /dashboard HTTP/1.1" 200 -

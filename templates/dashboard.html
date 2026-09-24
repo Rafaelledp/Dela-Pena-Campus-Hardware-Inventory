@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard - Campus Hardware</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f4f7f6; margin: 0; padding: 20px; }
+        .header { background-color: #17365D; color: white; padding: 15px 20px; display: flex; justify-content: space-between; align-items: center; border-radius: 8px; margin-bottom: 20px; }
+        .header a { color: white; text-decoration: none; background: #C62828; padding: 8px 15px; border-radius: 4px; }
+        .stats-grid { display: flex; gap: 20px; margin-bottom: 20px; }
+        .stat-card { flex: 1; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); text-align: center; }
+        .stat-card h3 { margin: 0; font-size: 2em; color: #1976D2; }
+        table { width: 100%; border-collapse: collapse; background: white; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        th, td { padding: 12px; text-align: left; border-bottom: 1px solid #ddd; }
+        th { background-color: #f8f9fa; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div>
+            <h2 style="margin: 0;">Campus Hardware</h2>
+            <small>Asset Management System</small>
+        </div>
+        <div>
+            <span>Welcome, <strong>{{ username }}</strong> ({{ role }})</span>
+            <a href="/logout" style="margin-left: 15px;">Logout</a>
+        </div>
+    </div>
+
+    <div class="stats-grid">
+        <div class="stat-card">
+            <h3>{{ stats.items }}</h3>
+            <p>Total Item Types</p>
+        </div>
+        <div class="stat-card">
+            <h3 style="color: #2E7D32;">{{ stats.quantity }}</h3>
+            <p>Total Stocks</p>
+        </div>
+        <div class="stat-card">
+            <h3 style="color: #F57C00;">{{ stats.low_stock }}</h3>
+            <p>Low Stock Items</p>
+        </div>
+    </div>
+
+    <h3>Hardware Inventory</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Category</th>
+                <th>Quantity</th>
+                <th>Status</th>
+                <th>Condition</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for item in items %}
+            <tr>
+                <td>{{ item[0] }}</td>
+                <td>{{ item[1] }}</td>
+                <td>{{ item[2] }}</td>
+                <td>{{ item[3] }}</td>
+                <td>{{ item[5] }}</td>
+                <td>{{ item[6] }}</td>
+            </tr>
+            {% else %}
+            <tr>
+                <td colspan="6">No inventory items found.</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
