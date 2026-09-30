@@ -6,8 +6,8 @@ import sqlite3
 import time
 from datetime import datetime
 
-# Import directly from your provided laboratorysystem.py
-from laboratorysystem import init_db, AuthController, TrackerController, DB_NAME, get_db_path
+# Use the Render-safe backend (no desktop Tkinter dependency)
+from laboratorysystem_web import init_db, AuthController, TrackerController, DB_NAME, get_db_path
 
 app = Flask(__name__)
 app.secret_key = "lab7-development-secret-change-me"

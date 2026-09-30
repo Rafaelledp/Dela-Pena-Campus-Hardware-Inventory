@@ -7,9 +7,6 @@ import time
 from pathlib import Path
 
 import bcrypt
-import tkinter as tk
-from tkinter import messagebox, filedialog, simpledialog, ttk
-
 from pydantic import BaseModel, Field, ValidationError, field_validator
 
 
@@ -1688,7 +1685,4 @@ class TrackerController:
             )
 
 
-# NOTE: This is the Render/Flask web-safe version of the system backend.
-# The original Tkinter desktop GUI was removed from this module because
-# Render's server environment does not provide the _tkinter module.
-# Desktop GUI code should be kept in a separate desktop-only module.
+# Render/Flask web-safe backend. Tkinter desktop GUI is intentionally excluded.
