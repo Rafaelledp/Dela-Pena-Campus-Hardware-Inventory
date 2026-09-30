@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environment
+venv/
+.venv/
+env/
+ENV/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Flask
+instance/
+.webassets-cache/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE / editors
+.vscode/
+.idea/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local uploads
+uploads/
+
+# Secrets / credentials
+*.pem
+*.key
+service-account*.json
