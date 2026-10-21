@@ -56,8 +56,8 @@ def send_otp_email(receiver_email, otp, intent):
         app.logger.exception("Unable to send OTP email: %s", exc)
         return False
     except Exception:
-    logging.exception("Brevo SMTP email sending failed")
-    return False
+        logging.exception("Brevo SMTP email sending failed")
+        return False
 
 def create_pending_otp(session_key, payload, receiver_email, intent):
     """Create and email an OTP, storing pending data in the signed session."""
