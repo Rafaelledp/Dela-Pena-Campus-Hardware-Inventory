@@ -2,7 +2,7 @@ import csv
 import logging
 import os
 import re
-import sqlite3
+import db_compat as sqlite3
 import time
 from pathlib import Path
 
@@ -70,7 +70,8 @@ def init_db(db_name=DB_NAME):
     db_path = get_db_path(db_name)
 
     try:
-        db_path.parent.mkdir(parents=True, exist_ok=True)
+        if not os.environ.get("DATABASE_URL"):
+            db_path.parent.mkdir(parents=True, exist_ok=True)
 
         conn = sqlite3.connect(str(db_path))
         cursor = conn.cursor()
@@ -239,6 +240,9 @@ def init_db(db_name=DB_NAME):
             "Database initialization error: %s",
             exc
         )
+        # Fail loudly in PostgreSQL mode instead of starting with an unusable database.
+        if os.environ.get("DATABASE_URL"):
+            raise
 
 
 # ============================================================

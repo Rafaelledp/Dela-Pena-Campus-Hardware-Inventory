@@ -1,16 +1,68 @@
-from flask import Flask, render_template_string, request, redirect, url_for, session, flash, send_file
+from flask import Flask, render_template, render_template_string, request, redirect, url_for, session, flash, send_file
 from functools import wraps
 import os
 import tempfile
-import sqlite3
+import db_compat as sqlite3
 import time
 from datetime import datetime
+import random
+import smtplib
+from email.mime.text import MIMEText
 
 # Use the Render-safe backend (no desktop Tkinter dependency)
 from laboratorysystem_web import init_db, AuthController, TrackerController, DB_NAME, get_db_path
 
 app = Flask(__name__)
-app.secret_key = "lab7-development-secret-change-me"
+app.secret_key = os.environ.get("FLASK_SECRET_KEY", "local-development-key-change-before-deployment")
+if not os.environ.get("FLASK_SECRET_KEY") and os.environ.get("DATABASE_URL"):
+    raise RuntimeError("Set FLASK_SECRET_KEY in the environment before running with Supabase.")
+
+# ==========================================
+# BREVO SMTP / EMAIL OTP CONFIGURATION
+# Set these values as environment variables locally and on Render.
+# ==========================================
+SMTP_SERVER = os.environ.get("SMTP_SERVER", "smtp-relay.brevo.com")
+SMTP_PORT = int(os.environ.get("SMTP_PORT", "2525"))
+SMTP_LOGIN = os.environ.get("SMTP_LOGIN", "")
+SMTP_PASSWORD = os.environ.get("SMTP_PASSWORD", "")
+SMTP_SENDER = os.environ.get("SMTP_SENDER", SMTP_LOGIN)
+OTP_TTL_SECONDS = 600  # OTP is valid for 10 minutes
+
+
+def send_otp_email(receiver_email, otp, intent):
+    """Send a six-digit verification code using Brevo SMTP."""
+    if not all([SMTP_LOGIN, SMTP_PASSWORD, SMTP_SENDER]):
+        app.logger.error("SMTP credentials are not configured.")
+        return False
+
+    msg = MIMEText(
+        f"Your {intent} verification code is: {otp}\n\n"
+        "This code expires in 10 minutes. Do not share it with anyone."
+    )
+    msg["Subject"] = f"Campus Hardware - {intent} OTP"
+    msg["From"] = SMTP_SENDER
+    msg["To"] = receiver_email
+
+    try:
+        with smtplib.SMTP(SMTP_SERVER, SMTP_PORT, timeout=20) as server:
+            server.starttls()
+            server.login(SMTP_LOGIN, SMTP_PASSWORD)
+            server.send_message(msg)
+        return True
+    except (smtplib.SMTPException, OSError) as exc:
+        app.logger.exception("Unable to send OTP email: %s", exc)
+        return False
+
+
+def create_pending_otp(session_key, payload, receiver_email, intent):
+    """Create and email an OTP, storing pending data in the signed session."""
+    otp = f"{random.SystemRandom().randint(0, 999999):06d}"
+    payload.update({"otp": otp, "otp_created_at": time.time(), "otp_attempts": 0})
+    session[session_key] = payload
+    if send_otp_email(receiver_email, otp, intent):
+        return True
+    session.pop(session_key, None)
+    return False
 
 # ==========================================
 # BORROW & RETURN CONTROLLERS EXTENSION
@@ -335,7 +387,7 @@ LOGIN_HTML = STYLE + """
                 <div style="position: relative;"><span class="input-icon">🔒</span><input type="password" name="password" class="pill-input" placeholder="PASSWORD" required></div>
                 <button type="submit" class="pill-btn">LOGIN</button>
             </form>
-            <div style="text-align: center; font-size: 0.75em; font-weight: 600; margin-top: 15px;"><a href="/register" style="color: #64748b; text-decoration: none;">Create an account</a></div>
+            <div style="text-align: center; font-size: 0.75em; font-weight: 600; margin-top: 15px;"><a href="/register" style="color: #64748b; text-decoration: none;">Create an account</a> · <a href="/reset-request" style="color: #64748b; text-decoration: none;">Account recovery</a></div>
         </div>
         <div class="auth-right">
             <div style="position: absolute; top: 30px; right: 40px; font-size: 0.8em; font-weight: 700;"><a href="/register" style="background: var(--dark-bg); color: white; text-decoration: none; padding: 8px 20px; border-radius: 20px;">SIGN UP</a></div>
@@ -420,13 +472,118 @@ def login():
 @app.route("/register", methods=["GET", "POST"])
 def register():
     if request.method == "POST":
+        username = request.form.get("username", "").strip()
+        email = request.form.get("email", "").strip()
+        password = request.form.get("password", "").strip()
+
+        if not username or not email or not password:
+            flash("All registration fields are required.", "danger")
+            return redirect(url_for("register"))
+
+        # Validate and check for existing accounts before sending the OTP.
         auth = AuthController()
-        ok, msg = auth.register_user(request.form.get("username", "").strip(), request.form.get("email", "").strip(), request.form.get("password", "").strip())
-        if ok:
-            flash(msg, "success")
-            return redirect(url_for("login"))
-        flash(msg, "danger")
+        from laboratorysystem_web import UserRegisterSchema
+        from pydantic import ValidationError
+        try:
+            UserRegisterSchema(username=username, email=email, password=password, role="USER")
+        except ValidationError as exc:
+            msg = auth.friendly_validation_message([e.get("msg", "") for e in exc.errors()])
+            flash(msg, "danger")
+            return redirect(url_for("register"))
+
+        conn = auth._connect()
+        cursor = conn.cursor()
+        cursor.execute("SELECT 1 FROM users WHERE username = ? OR email = ?", (username, email))
+        exists = cursor.fetchone() is not None
+        conn.close()
+        if exists:
+            flash("Username or email is already registered.", "danger")
+            return redirect(url_for("register"))
+
+        payload = {"username": username, "email": email, "password": password, "role": "USER"}
+        if create_pending_otp("pending_user", payload, email, "Account Registration"):
+            flash("A six-digit verification code was sent to your email.", "info")
+            return redirect(url_for("verify_otp", action="register"))
+        flash("Could not send the verification email. Check SMTP settings and try again.", "danger")
     return render_template_string(REGISTER_HTML)
+
+
+@app.route("/reset-request", methods=["GET", "POST"])
+def reset_request():
+    """Email-verify an account recovery request before sending it to the admin."""
+    if request.method == "GET":
+        return render_template("reset.html")
+
+    username = request.form.get("username", "").strip()
+    email = request.form.get("email", "").strip()
+    if not username or not email:
+        flash("Username and email are required.", "danger")
+        return redirect(url_for("reset_request"))
+
+    # Do not disclose whether a username/email pair exists until verified.
+    auth = AuthController()
+    conn = auth._connect()
+    cursor = conn.cursor()
+    cursor.execute("SELECT 1 FROM users WHERE username = ? AND email = ?", (username, email))
+    matched = cursor.fetchone() is not None
+    conn.close()
+    if not matched:
+        flash("The username and email could not be verified. Check your details and try again.", "danger")
+        return redirect(url_for("reset_request"))
+
+    payload = {"username": username, "email": email}
+    if create_pending_otp("pending_reset", payload, email, "Account Recovery"):
+        flash("A six-digit verification code was sent to your email.", "info")
+        return redirect(url_for("verify_otp", action="reset"))
+    flash("Could not send the verification email. Check SMTP settings and try again.", "danger")
+    return redirect(url_for("reset_request"))
+
+
+@app.route("/verify-otp/<action>", methods=["GET", "POST"])
+def verify_otp(action):
+    if action not in {"register", "reset"}:
+        flash("Invalid verification action.", "danger")
+        return redirect(url_for("login"))
+
+    session_key = "pending_user" if action == "register" else "pending_reset"
+    data = session.get(session_key)
+    if not data:
+        flash("Your verification session expired. Please try again.", "warning")
+        return redirect(url_for("register" if action == "register" else "reset_request"))
+
+    if time.time() - data.get("otp_created_at", 0) > OTP_TTL_SECONDS:
+        session.pop(session_key, None)
+        flash("The verification code expired. Please request a new one.", "warning")
+        return redirect(url_for("register" if action == "register" else "reset_request"))
+
+    if request.method == "POST":
+        user_otp = request.form.get("otp_code", "").strip()
+        data["otp_attempts"] = data.get("otp_attempts", 0) + 1
+        if data["otp_attempts"] > 5:
+            session.pop(session_key, None)
+            flash("Too many incorrect attempts. Please request a new code.", "danger")
+            return redirect(url_for("register" if action == "register" else "reset_request"))
+        session[session_key] = data
+
+        if user_otp == data.get("otp"):
+            if action == "register":
+                ok, msg = AuthController().register_user(
+                    data["username"], data["email"], data["password"], role="USER"
+                )
+                session.pop(session_key, None)
+                flash("Email verified. " + msg, "success" if ok else "danger")
+                return redirect(url_for("login"))
+
+            # Preserve this project's existing recovery design: verified requests
+            # are queued for administrator review; approval does not set a new password.
+            ok, msg = AuthController().request_password_reset(data["username"], data["email"])
+            session.pop(session_key, None)
+            flash("Email verified. " + msg, "success" if ok else "danger")
+            return redirect(url_for("login"))
+
+        flash("Incorrect verification code. Please try again.", "danger")
+
+    return render_template("otp_verify.html", action=action)
 
 @app.route("/dashboard")
 @login_required
