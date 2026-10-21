@@ -9,6 +9,8 @@ import random
 import smtplib
 from email.mime.text import MIMEText
 import db_compat as sqlite3
+import logging
+
 
 # Use the Render-safe backend (no desktop Tkinter dependency)
 from laboratorysystem_web import init_db, AuthController, TrackerController, DB_NAME, get_db_path
